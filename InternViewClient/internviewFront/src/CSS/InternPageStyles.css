@@ -1,0 +1,11 @@
+/* InternPageStyles.css */
+.welcomePaper {
+  padding: 16px;
+  margin: 16px;
+  display: inline-block;
+  width: 100%;
+}
+
+.centerButton {
+  margin: auto;
+}

@@ -1,0 +1,119 @@
+#root {
+  /* max-width: 100%; */
+  margin: auto;
+  width: 100%;
+  margin-top: 12px;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* להציג את השגיאה שלא קיימת הסיסמא בלוג אין */
+.swal2-container {
+  z-index: 1500 !important; /* Higher than most elements */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.logoImage {
+  width: 50%;
+}
+
+.timeline-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+/* table */
+.rtl-table {
+  direction: rtl;
+  text-align: right;
+}
+
+/* for the animation of the stepper */
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-in {
+  opacity: 0;
+  animation: slideInFromLeft 0.5s forwards;
+}
+
+/* for the table of the full detailed syllabus */
+.borderLeft {
+  border-left: 1px solid rgba(224, 224, 224, 1);
+}
+
+/* for padding of thr table of the full detailed syllabus */
+.custom-cell {
+  padding: 0 !important;
+  padding-right: 5px !important;
+}
+
+.css-ur1vvw {
+  width: 28vh;
+}
+
+/* App.css or a similar file */
+.MuiTimelineItem-root {
+  min-height: 0; /* Reduce extra spacing between items */
+}
+
+.MuiTimelineDot-root {
+  position: relative; /* Ensure the dot is properly positioned */
+  z-index: 1; /* Bring the dot above the connector */
+}
+
+.MuiTimelineConnector-root {
+  position: absolute; /* Stretch connector full length */
+  top: 50%; /* Center the connector vertically */
+  transform: translateY(-50%); /* Adjust placement to connect dots */
+  height: 100%; /* Full height to stretch between items */
+}
+
+
+/* STYLED SCROLLBAR OF THE HOLE APP */
+::-webkit-scrollbar {
+  width: 12px;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+}
+
+/* Targets the draggable part of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  border-radius: 10px;
+  border: 3px solid white; /* Creates padding around the scroll thumb */
+}
+
+/* Targets the part of the scrollbar track where there isn't a thumb */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Optional: style the scrollbar button (arrows) */
+::-webkit-scrollbar-button {
+  display: none; /* This can be set to 'block' if you want arrows on your scrollbar */
+}
+/* STYLED SCROLLBAR OF THE HOLE APP */
+
