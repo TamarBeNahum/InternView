@@ -10,14 +10,14 @@ import 'firebase/database';
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAjQ0598ET6NOuxS-iNghaQK_YcNdIgFmo",
-  authDomain: "internview-2490e.firebaseapp.com",
-  databaseURL: "https://internview-2490e-default-rtdb.firebaseio.com/",
-  projectId: "internview-2490e",
-  storageBucket: "internview-2490e.appspot.com",
-  messagingSenderId: "498153242822",
-  appId: "1:498153242822:web:6741a8e440a05bbcb857c7",
-  measurementId: "G-7VBVXTEW6R"
+  apiKey: "AIzaSyA60QiKH2MjtoIRwGfpFFlISGlQVzu_PIc",
+  authDomain: "internviewchat.firebaseapp.com",
+  databaseURL: "https://internviewchat-default-rtdb.firebaseio.com",
+  projectId: "internviewchat",
+  storageBucket: "internviewchat.firebasestorage.app",
+  messagingSenderId: "149630678787",
+  appId: "1:149630678787:web:8648bf6c77049996ce5b36",
+  measurementId: "G-3675VSBLYT"
 };
 
 // Initialize Firebase

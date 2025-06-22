@@ -146,7 +146,7 @@ export default function DetailedSyllabusTable({ propsInternId, role: propsRole }
     let doneAsSecond = row.doneAsSecond;
     return (
       <React.Fragment>
-        <TableRow sx={{ "& > *": { borderBottom: "unset" } }}>
+        <TableRow >
           {row.expandable ? (
             <TableCell align="right">
               <IconButton
